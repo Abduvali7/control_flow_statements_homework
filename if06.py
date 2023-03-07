@@ -29,5 +29,5 @@ def main(a,b,c):
         p=p+1
     if k>p:
         return "here are a lot of positive numbers"
-    if p>k:
-        return "hereare lot of positive numbers"
+    if p<k:
+        return "here are a lot of negative numbers"
