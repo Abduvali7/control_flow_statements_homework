@@ -12,6 +12,6 @@ def main(a):
     if a<0:
         a=a-2
     if a==0:
-        a==10 
+        a=10 
        
     return a
