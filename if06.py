@@ -17,9 +17,18 @@ def main(a,b,c):
     p=0
     if a>0:
         k=k+1
+    if a<0:
+        k=k+1
     if b>0:
+        p=p+1
+    if b<0:
         p=p+1
     if c>0:
         k=k+1
-    return "here are a lot of positive numbers"
+    if c<0:
+        k=k+1
+    if k>p:
+        return "here are a lot of positive numbers"
+    if p>k:
+        return "hereare lot of positive numbers"
 print(main(1,2,3))
