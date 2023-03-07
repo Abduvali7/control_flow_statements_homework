@@ -16,7 +16,7 @@ def main(a,b,c):
     s = 0
     if a<0:
         s=s+1
-    if b>0:
+    if b<0:
         s=s+1
     if c<0:
         s=s+1
