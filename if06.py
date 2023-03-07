@@ -31,4 +31,3 @@ def main(a,b,c):
         return "here are a lot of positive numbers"
     if p>k:
         return "hereare lot of positive numbers"
-print(main(1,2,3))
