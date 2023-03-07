@@ -13,12 +13,13 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    s = 0
+    k=0
+    p=0
     if a>0:
-        s=s+1
+        k=k+1
     if b>0:
-        s=s+1
+        p=p+1
     if c>0:
-        s=s+1
-    return s
+        k=k+1+1
+    return "here are a lot of positive numbers"
 print(main(1,2,3))
