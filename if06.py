@@ -20,6 +20,6 @@ def main(a,b,c):
     if b>0:
         p=p+1
     if c>0:
-        k=k+1+1
+        k=k+1
     return "here are a lot of positive numbers"
 print(main(1,2,3))
