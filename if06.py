@@ -14,11 +14,11 @@ def main(a,b,c):
         string: string with the result
     """
     s = 0
-    if a<0:
+    if a>0:
         s=s+1
-    if b<0:
+    if b>0:
         s=s+1
-    if c<0:
+    if c>0:
         s=s+1
     return s
 print(main(1,2,3))
