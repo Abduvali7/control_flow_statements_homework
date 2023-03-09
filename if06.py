@@ -14,7 +14,7 @@ def main(a,b,c):
         string: string with the result
     """
     k=0
-    p=0
+    p=0 
     if a>0:
         k=k+1
     if a<0:
@@ -28,6 +28,6 @@ def main(a,b,c):
     if c<0:
         p=p+1
     if k>p:
-        return "there are a lot of positive numbers"                
-    if p<k:
+        return "there are a lot of positive numbers"
+    if k<p:
         return "there are a lot of negative numbers"
